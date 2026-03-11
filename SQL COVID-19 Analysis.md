@@ -1,4 +1,4 @@
-# SQL COVID-19 Data Analysis (Markdown Version)
+# SQL COVID-19 Data Analysis
 
 This file presents the analysis from `SQL COVID-19 Analysis.sql` in a clean, GitHub-friendly format with SQL syntax highlighting.
 
@@ -238,4 +238,5 @@ JOIN PortfolioProject..CovidVaccinations vac
  AND dea.date = vac.date
 WHERE dea.continent IS NOT NULL;
 ```
+
 
